@@ -1,0 +1,23 @@
+Part One: Solidify Terminology
+
+1. What is HTTP? It is one protocol (Hypertext Transfer Protocol) for making requests to and from a server over the web.
+
+2. What is a URL? A Uniform Resource Locator is an online/web address for any given resource.
+
+3. What is DNS? A Domain Name System takes a URL and turns it into an IP address.
+
+4. What is a query string? Part of a URL that allows you to pass key/value pairs.
+
+5. List two HTTP verbs and their use cases. GET which makes requests from a server with no changes being made to content on that server. POST,
+    which makes requests to the server and carries a payload. This generally leads to some change on the server.
+    
+6. What is an HTTP Request? A request to a server that follows HTTP protocol.
+
+7. What is an HTTP Response? A response from a server that follows HTTP protocol.
+
+8. What is an HTTP Header? Headers provide additional infomration about the request or response. Types include Host, Accept, Content-Type, etc.
+
+9. What happens when you type a URL into a browser? The browser turns the name into an IP address using DNS and makes a request to that IP address, 
+    including headers. The server sends a response with one of several response codes (200, 301, 404, etc). The browser makes a DOM from that HTML, 
+    and finds any other resources needed (images, CSS, JavaScript, etc). The browser makes separate HTTP requests for those resources and receives 
+    response from the server for each.
